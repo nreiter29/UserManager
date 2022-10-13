@@ -1,0 +1,15 @@
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\bin\Debug\net6.0\UserManager.BL.deps.json
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\bin\Debug\net6.0\UserManager.BL.dll
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\bin\Debug\net6.0\UserManager.BL.pdb
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\bin\Debug\net6.0\UserManager.Models.dll
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\bin\Debug\net6.0\UserManager.Models.pdb
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\obj\Debug\net6.0\UserManager.BL.csproj.AssemblyReference.cache
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\obj\Debug\net6.0\UserManager.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\obj\Debug\net6.0\UserManager.BL.AssemblyInfoInputs.cache
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\obj\Debug\net6.0\UserManager.BL.AssemblyInfo.cs
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\obj\Debug\net6.0\UserManager.BL.csproj.CoreCompileInputs.cache
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\obj\Debug\net6.0\UserManager.BL.csproj.CopyComplete
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\obj\Debug\net6.0\UserManager.BL.dll
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\obj\Debug\net6.0\refint\UserManager.BL.dll
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\obj\Debug\net6.0\UserManager.BL.pdb
+C:\Users\noahr\source\repos\UserManager\UserManager.BL\obj\Debug\net6.0\ref\UserManager.BL.dll

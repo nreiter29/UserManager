@@ -1,0 +1,12 @@
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\bin\Debug\net6.0\UserManager.Models.deps.json
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\bin\Debug\net6.0\UserManager.Models.dll
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\bin\Debug\net6.0\UserManager.Models.pdb
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\obj\Debug\net6.0\UserManager.Models.csproj.AssemblyReference.cache
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\obj\Debug\net6.0\UserManager.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\obj\Debug\net6.0\UserManager.Models.AssemblyInfoInputs.cache
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\obj\Debug\net6.0\UserManager.Models.AssemblyInfo.cs
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\obj\Debug\net6.0\UserManager.Models.csproj.CoreCompileInputs.cache
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\obj\Debug\net6.0\UserManager.Models.dll
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\obj\Debug\net6.0\refint\UserManager.Models.dll
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\obj\Debug\net6.0\UserManager.Models.pdb
+C:\Users\noahr\source\repos\UserManager\UserManager.Models\obj\Debug\net6.0\ref\UserManager.Models.dll
