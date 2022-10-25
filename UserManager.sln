@@ -5,9 +5,13 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManager.Models", "UserManager.Models\UserManager.Models.csproj", "{1B5223B3-0CD0-4954-ACB1-B949DC2916AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManager.BL", "UserManager.BL\UserManager.BL.csproj", "{A85D02A1-0DAC-4FB7-A681-A8B18E3E0802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManager.BL", "UserManager.BL\UserManager.BL.csproj", "{A85D02A1-0DAC-4FB7-A681-A8B18E3E0802}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManager.GUICons", "UserManager.GUICons\UserManager.GUICons.csproj", "{EBEE057B-0CDD-427D-AB0F-922AC93BBB32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManager.GUICons", "UserManager.GUICons\UserManager.GUICons.csproj", "{EBEE057B-0CDD-427D-AB0F-922AC93BBB32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManager.GUIForms", "UserManager.GUIForms\UserManager.GUIForms.csproj", "{12D7E9CF-0633-4E85-8702-AED1C154329C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManager.BL.Tests", "UserManager.BL.Tests\UserManager.BL.Tests.csproj", "{AEDCF369-9962-4256-A888-D0550A960514}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{EBEE057B-0CDD-427D-AB0F-922AC93BBB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBEE057B-0CDD-427D-AB0F-922AC93BBB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBEE057B-0CDD-427D-AB0F-922AC93BBB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D7E9CF-0633-4E85-8702-AED1C154329C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D7E9CF-0633-4E85-8702-AED1C154329C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D7E9CF-0633-4E85-8702-AED1C154329C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D7E9CF-0633-4E85-8702-AED1C154329C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEDCF369-9962-4256-A888-D0550A960514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDCF369-9962-4256-A888-D0550A960514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDCF369-9962-4256-A888-D0550A960514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDCF369-9962-4256-A888-D0550A960514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

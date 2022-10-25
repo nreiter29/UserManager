@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "UserManager.GUIForms/1.0.0": {
+        "dependencies": {
+          "UserManager.BL": "1.0.0",
+          "UserManager.Models": "1.0.0"
+        },
+        "runtime": {
+          "UserManager.GUIForms.dll": {}
+        }
+      },
+      "UserManager.BL/1.0.0": {
+        "dependencies": {
+          "UserManager.Models": "1.0.0"
+        },
+        "runtime": {
+          "UserManager.BL.dll": {}
+        }
+      },
+      "UserManager.Models/1.0.0": {
+        "runtime": {
+          "UserManager.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserManager.GUIForms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserManager.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserManager.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

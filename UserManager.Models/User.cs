@@ -23,8 +23,9 @@
         /// </summary>
         private static int count = 0;
 
-        private int _userID;
-        
+        private double _userID;
+        private string _birthdate;
+
         // Eigenschaften
 
         /// <summary>
@@ -33,7 +34,7 @@
         /// Properties besitzen immer get und set
         /// sowie ein Feld auf das sie zugreifen!
         /// </summary>
-        public int UserID {
+        public double UserID {
             // Lesezugriff von außen auf das Feld - Beispiel:
             //      User user = new();
             //      int id = user.UserID;
@@ -42,7 +43,7 @@
             // Schreibzugriff von außen auf das Feld - Beispiel:
             //      User user = new();
             //      user.UserID = 100;
-            private set { _userID = value; }
+            set { _userID = value; }
         }
 
         /// <summary>
@@ -53,7 +54,11 @@
         public string Email { get; set; } = "";
         public string FirstName { get; set; } = "";
         public string LastName { get; set; } = "";
-        public DateTime Birthdate { get; set; }
+
+        public string Birthdate {
+            get { return _birthdate; }
+            set { _birthdate = value; }
+        }
 
         // Konstruktoren
 
@@ -70,7 +75,7 @@
         public User() { // Wenn keine Instanz mit dem Standard-Konstruktors erzeugt werden sollen, setzt man diesen auf private!
             // Zählt wie viele Instanzen erzeugt wurden
             count++;
-            UserID = count;
+            UserID = Convert.ToDouble(count);
         }
 
         /// <summary>
@@ -84,7 +89,7 @@
         public User(string lastName) {
             LastName = lastName;
             count++;
-            UserID = count;
+            UserID = Convert.ToDouble(count);
         }
 
         /// <summary>
@@ -94,7 +99,7 @@
         /// <param name="userID"></param>
         public User(string lastName, int userID) {
             LastName = lastName;
-            UserID = userID;
+            UserID = Convert.ToDouble(userID);
         }
 
         // Methoden
@@ -107,10 +112,6 @@
             return $"{FirstName} {LastName}";
         }
 
-        public int GetAge() {
-            return DateTime.Now.Year - Birthdate.Year;
-        } 
-        
         // Destruktoren
 
         /// <summary>

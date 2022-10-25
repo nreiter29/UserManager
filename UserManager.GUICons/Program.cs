@@ -7,14 +7,16 @@ namespace UserManager.GUICons {
         static void Main(string[] args) {
         UserAdministration Admin = new();
             while(true) {
-                Console.WriteLine("Menü\n\n\r" +
+                Console.WriteLine("\n\rMenü\n\n\r" +
                                   "[0] User hinzufügen\n\r" +
                                   "[1] User anzeigen\n\r" +
                                   "[2] User löschen\n\r" +
                                   "[3] User modifizieren\n\r" +
+                                  "[4] Users speichern\n\r" +
                                   "[e] beenden\n\r");
 
                 string input = Console.ReadLine();
+                Console.WriteLine();
 
                 switch (input) {
                     case "0":
@@ -22,22 +24,30 @@ namespace UserManager.GUICons {
                         break;
                     case "e":
                         return;
-                    case "1":
-                        Admin.ListUsers();
+                    case "1": 
+                        Admin.ImportUsersCSV(@"C:\Users\noahr\source\repos\UserManager\users.csv");
+                    Admin.ListUsers();
                         break;
                     case "2":
-                    Admin.DeleteUser();
+                        Admin.DeleteUser();
                     break;
                         case "3":
                         Admin.ModifyUser();
                     break;
+                    case "4":
+                        SaveUsers(Admin);
+                        break;
                     default:
                         break;
                 }
-
             }
         }
-        
+
+        private static void SaveUsers(UserAdministration Admin) {
+            Console.WriteLine("Speichern\n\r");
+            Admin.ExportUsersCsv();
+        }
+
         private static User CreateUser() {
             User user = new();
 
@@ -51,7 +61,8 @@ namespace UserManager.GUICons {
             Console.WriteLine("E-Mail: ");
             user.Email = Console.ReadLine() ?? "";
             Console.WriteLine("Geburtsdatum: ");
-            user.Birthdate = DateTime.Parse(Console.ReadLine());
+            string Birthdate = Console.ReadLine();
+            user.Birthdate = Birthdate;
             
             return user;
         }
